@@ -7,6 +7,12 @@
 // 4- showField();
 // 5- commandList("String with commands");
 //
+// OR
+//
+// 1- init(numRovers, numObstacles);
+// 2- commandList("String with commands");
+//
+// Enjoy!
 //==========================================
 
 // Rover Object Goes Here
@@ -88,7 +94,7 @@ function showObstacles(){
   for(var x = 0; x < field.length; x ++){
     for( var y = 0; y < field.length; y ++){
       if(field[y][x] === "O"){
-        console.log("Obstacle in: " + "[" + y + "|" + x +"]")
+        console.log("Obstacle in: " + "[" + y + "|" + x +"]");
       }
     }
   }
