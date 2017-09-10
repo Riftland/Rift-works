@@ -2,7 +2,7 @@
 // INSTRUCTIONS
 //
 // 1- refillField();
-// 2- roverList.push(new rover(dir<String>, x(int), y(int), [], true));
+// 2- roverList.push(new rover(dir, x, y, [], true)); -> (String, int, int, [], true)
 // 3- posRovers();
 // 4- rndObstacles(int);
 // 5- showField();
@@ -10,7 +10,7 @@
 //
 // OR
 //
-// 1- init(numRovers, numObstacles);
+// 1- init(numRovers, numObstacles); -> (int, int)
 // 2- commandList("String with commands");
 //
 // Enjoy!
