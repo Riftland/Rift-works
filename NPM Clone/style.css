@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+/*--NAVIGATION BAR CSS--*/
+
+nav {
+  background-color: #C12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  padding-left: 20px;
+  height: 35px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+}
+
+/*--HEADER CSS--*/
+
+header {
+  background-image: url("images/city-scape.svg");
+  background-size: cover;
+  height: 450px;
+}
+
+.div-first {
+  padding: 10px 10px;
+}
+
+.div-first #npm-logo {
+  width: 130px;
+  height: 50px;
+  float: left;
+  margin: 10px 10px;
+}
+
+.div-first #bear-logo {
+  width: 40px;
+  float: left;
+  margin: 10px 5px;
+}
+
+.search-bar {
+  width: 910px;
+  height: 45px;
+  background-color: rgb(31, 82, 111);
+  color: grey;
+  border: 1px solid grey;
+  float: left;
+  margin: 10px 0;
+  font-size: 17px;
+  padding-left: 17px;
+}
+
+.search-button {
+  height: 47px;
+  width: 47px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid grey;
+  float: left;
+  margin: 10px 15px 10px -2px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.div-first a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.div-first p {
+  float: left;
+  padding-top: 10px;
+  margin: 10px 0 10px 10px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+}
+
+.div-second {
+  color: white;
+  height: 320px;
+  width: 1180px;
+  float: right;
+  margin-top: 50px;
+}
+
+.div-second h1{
+  font-size: 3em;
+  font-weight: 400;
+  height: 80px;
+}
+
+.div-second p{
+  font-size: 1.1em;
+  height: 100px;
+}
+
+.button {
+  border: 1px;
+  background-color: rgb(240, 146, 51);
+  padding: 10px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  word-spacing: 2px;
+  cursor: pointer;
+}
+
+/*--SECTION 1 CSS--*/
+
+#section1 {
+  background-color: rgb(39, 53, 71);
+  height: 580px;
+}
+
+.general-wrap {
+  width: 78%;
+  margin: 0 auto;
+  padding-top: 8%;
+}
+
+.general-wrap img {
+  height: 340px;
+}
+
+.inner-wrap {
+  float: right;
+  padding-top: 2%;
+  color: white;
+}
+
+.inner-wrap h2 {
+  font-weight: lighter;
+  font-size: 34px;
+}
+
+.inner-wrap ul {
+  position: relative;
+  left: 5%;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.inner-wrap p {
+  padding-top: 30px;
+  line-height: 42px;
+}
+
+.inner-wrap p a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-sec-1 {
+  border: 1px;
+  background-color: rgb(203, 56, 55);
+  padding: 8px 27px 9px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+/*--SECTION 2 CSS--*/
+
+#section2 {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  height: 550px;
+  position: relative;
+}
+
+#section2 div {
+  position: absolute;
+  left: 11%;
+  top: 21%;
+}
+
+.fonts h3, .fonts p, .fonts a {
+  color: white;
+}
+
+.fonts h3 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.fonts p {
+  font-size: 17px;
+  padding: 20px 0 30px;
+}
+
+.button-sec-2 {
+  border: 1px;
+  background-color: rgb(49, 68, 88);
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  word-spacing: 2px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/*--SECTION 3 CSS--*/
+
+#section3 {
+  height: 500px;
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+.sub-section1 {
+  padding: 40px 0 10px;
+  line-height: 50px;
+}
+
+.sub-section1 h2, .sub-section2 div h4 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.sub-section1 p, .sub-section2 div p {
+  color: rgb(135, 145, 156);
+  font-size: 17px;
+}
+
+.sub-section1 h2 {
+  font-size: 2.3em;
+  font-weight: lighter;
+  margin-top: 23px;
+}
+
+.sub-section2 {
+  position: absolute;
+  width: 85%;
+  left: 8%;
+}
+
+.sub-section2 div h4 {
+  font-size: 1.4em;
+  padding: 10px;
+}
+
+.sub-section2 > div {
+  float: left;
+  width: 33%;
+}
+
+.links a{
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+  cursor: pointer;
+}
