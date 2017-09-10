@@ -2,10 +2,11 @@
 // INSTRUCTIONS
 //
 // 1- refillField();
-// 2- roverList.push(new roverB(id, dir, int, int, [], true));
+// 2- roverList.push(new rover(dir<String>, x(int), y(int), [], true));
 // 3- posRovers();
-// 4- showField();
-// 5- commandList("String with commands");
+// 4- rndObstacles(int);
+// 5- showField();
+// 6- commandList("String with commands");
 //
 // OR
 //
@@ -403,7 +404,7 @@ function moveForward(rover, id){
 /*As param, receive an item Object
 /*This function is equal to <moveForward> function, but in each
 movement the direction is inverse*/
-function moveBackward(rover){
+function moveBackward(rover, id){
   //Case for movement from where It's facing
   /*In each case we call to function <outOfLimits>, this function
   check if the rover is at limit of the grid*/
