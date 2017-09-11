@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Open Sans;
+  font-family: "Open Sans","OpenSans", sans-serif;
 }
 
 /*--NAVIGATION BAR CSS--*/
@@ -44,68 +44,67 @@ header {
   background-image: url("images/city-scape.svg");
   background-size: cover;
   height: 450px;
+  width: 100%;
+  position: relative;
+  background-color: rgb(32, 101, 136);
 }
 
-.div-first {
-  padding: 10px 10px;
-}
-
-.div-first #npm-logo {
-  width: 130px;
-  height: 50px;
+#npm-logo {
+  height: 45px;
   float: left;
   margin: 10px 10px;
 }
 
-.div-first #bear-logo {
-  width: 40px;
+#search-bar {
   float: left;
-  margin: 10px 5px;
-}
-
-.search-bar {
-  width: 910px;
+  width: 78%;
   height: 45px;
   background-color: rgb(31, 82, 111);
   color: grey;
   border: 1px solid grey;
-  float: left;
   margin: 10px 0;
   font-size: 17px;
   padding-left: 17px;
 }
 
 .search-button {
+  float: left;
   height: 47px;
   width: 47px;
   background-color: rgb(31, 82, 111);
   border: 1px solid grey;
-  float: left;
   margin: 10px 15px 10px -2px;
   font-size: 25px;
   cursor: pointer;
 }
 
-.div-first a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
-  cursor: pointer;
-}
-
 .div-first p {
   float: left;
-  padding-top: 10px;
+  padding-top: 0.7%;
   margin: 10px 0 10px 10px;
   color: rgba(255, 255, 255, 0.8);
   font-size: 17px;
 }
 
+.div-first p a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+#bear-logo {
+  float: left;
+  height: 45px;
+  padding-top: 10px;
+}
+
 .div-second {
+  clear: both;
   color: white;
-  height: 320px;
-  width: 1180px;
-  float: right;
-  margin-top: 50px;
+  width: 55%;
+  padding-top: 3%;
+  margin: 0 auto;
+  word-spacing: 3px;
 }
 
 .div-second h1{
@@ -135,16 +134,18 @@ header {
 #section1 {
   background-color: rgb(39, 53, 71);
   height: 580px;
+  position: relative;
 }
 
 .general-wrap {
-  width: 78%;
+  width: 54%;
   margin: 0 auto;
-  padding-top: 8%;
+  padding-top: 5%;
 }
 
 .general-wrap img {
   height: 340px;
+  float: left;
 }
 
 .inner-wrap {
@@ -155,7 +156,7 @@ header {
 
 .inner-wrap h2 {
   font-weight: lighter;
-  font-size: 34px;
+  font-size: 37px;
 }
 
 .inner-wrap ul {
@@ -200,8 +201,8 @@ header {
 
 #section2 div {
   position: absolute;
-  left: 11%;
-  top: 21%;
+  left: 20%;
+  top: 25%;
 }
 
 .fonts h3, .fonts p, .fonts a {
@@ -259,9 +260,8 @@ header {
 }
 
 .sub-section2 {
-  position: absolute;
-  width: 85%;
-  left: 8%;
+  width: 65%;
+  margin: 0 auto;
 }
 
 .sub-section2 div h4 {
