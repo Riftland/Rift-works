@@ -31,3 +31,7 @@ OR
 ENJOY!
 
 ===================================
+
+Notes for NPM CLONE
+
+Optimal view -> 1920 * 1080 Screen
